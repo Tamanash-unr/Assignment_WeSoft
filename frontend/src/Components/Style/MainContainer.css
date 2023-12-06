@@ -1,0 +1,15 @@
+.main-container{
+    background-color: white;
+    border: 5px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.main-container > h3 {
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px 10px 0px 0px;
+    width: 80vw;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    padding: 8px 15px;
+}
