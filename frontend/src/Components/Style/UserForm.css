@@ -1,0 +1,101 @@
+.screen-bg{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.75);
+}
+
+.user-form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 5px solid grey;
+    border-radius: 15px;
+    padding: 5px;
+    z-index: 10;
+}
+
+.form-head{
+    display: flex;
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px 10px 0px 0px;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+
+.form-head h3 {
+    width: 30vw;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.form-head button{
+    font-size: larger;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.form-head button:hover{
+    color: black;
+}
+
+.user-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control {
+    width: 90%;
+    margin: 5px 2px;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+form button{
+    margin-top: 10px;
+    width: 50%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    background-color: #459645;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select{
+    width: 90%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.role{
+    color: black;
+    width: 90%;
+    display: flex;
+}
+
+.role h5{
+    margin: 10px 5px;
+}
+
+.role-options{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+
+.role-options input{
+    margin: 0px 3px;
+}
